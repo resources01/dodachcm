@@ -901,7 +901,8 @@ h2.subtitle::after {
     position: absolute;
     height: 5px;
     width: 5px;
-    background-color: #fe8c12;
+    background: linear-gradient(180deg, #FFE42B 0%, #FFFF8B 22.92%, #B87700 45.31%, #FFC02F 66.15%, #FFE42B 97.92%);
+        
     border-radius: 50%;
     top: 50%;
     left: -9px;
@@ -911,7 +912,9 @@ h2.subtitle::after {
 }
 
 .navbar-area nav ul li.active a {
-    color: #fe8c12;
+    background: -webkit-linear-gradient(180deg, #FFE42B 0%, #FFFF8B 22.92%, #B87700 45.31%, #FFC02F 66.15%, #FFE42B 97.92%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .navbar-area nav ul li.dropdown.active::after {
@@ -927,7 +930,9 @@ h2.subtitle::after {
 }
 
 .navbar-area nav ul li a {
-    color: #fff;
+    background: -webkit-linear-gradient(180deg, #FFE42B 0%, #FFFF8B 22.92%, #B87700 45.31%, #FFC02F 66.15%, #FFE42B 97.92%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
     text-transform: uppercase;
     padding: 0px;
     font-weight: 600;
@@ -940,7 +945,9 @@ h2.subtitle::after {
 }
 
 .navbar-area nav ul li:hover a {
-    color: #fe8c12;
+    background: -webkit-linear-gradient(180deg, #FFE42B 0%, #FFFF8B 22.92%, #B87700 45.31%, #FFC02F 66.15%, #FFE42B 97.92%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .navbar-area nav ul li.dropdown {
@@ -953,7 +960,7 @@ h2.subtitle::after {
     content: '\f0d7';
     font-family: 'Font Awesome 5 Free';
     font-weight: 700;
-    color: #fff;
+    color: #FFE42B;
     top: 4px;
     right: -13px;
     font-size: 12px;
@@ -2689,7 +2696,7 @@ footer h4::after {
 }
 
 .home-3 .support-nav-area {
-    padding: 23px 0px;
+    padding: 10px 0px;
     background-color: #0d4272;
     border-bottom: 1px solid #568dc0;
 }
@@ -2707,6 +2714,7 @@ footer h4::after {
 }
 
 .header-area.sticky-navbar.home-3 .support-nav-area {
+    padding: 10px 0px;
     background-color: #0d4271;
     border: none;
 }
